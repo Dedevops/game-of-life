@@ -2,7 +2,7 @@ FROM selenium/standalone-firefox:latest
 
 ENV MAVEN_VERSION 3.3.3
 ENV DISPLAY :99
-
+ENV 
 USER root
 
 RUN apt-get update -qqy \
